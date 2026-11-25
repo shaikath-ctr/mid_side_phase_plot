@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ms-phase-plot"
+version = "1.0.0"
+description = "Adobe Audition-style Mid/Side Phase Analysis plotter, real-time scope, and DSP toolkit"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24,<2.5",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "soundfile>=0.12",
+    "sounddevice>=0.4",
+    "PySide6>=6.6",
+]
+
+[project.scripts]
+ms-phase-plot = "ms_phase_plot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ms_phase_plot*"]
