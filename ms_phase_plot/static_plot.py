@@ -141,7 +141,7 @@ def _draw_lissajous_grid(ax: Axes) -> None:
     ax.text(0.0, 1.04, "+R", color=TEXT_BRIGHT, fontsize=9.0, fontweight="bold", ha="center", va="bottom")
     ax.text(0.0, -1.04, "-R", color=TEXT_MUTED, fontsize=9.0, fontweight="bold", ha="center", va="top")
     ax.text(0.92, 0.92, "M", color=ACCENT_PHOSPHOR, alpha=0.85, fontsize=9.0, fontweight="bold", ha="right", va="top")
-    ax.text(-0.92, 0.92, "S", color=TEXT_MUTED, alpha=0.85, fontsize=9.0, fontweight="bold", ha="left", va="top")
+    ax.text(0.92, -0.92, "S", color=TEXT_MUTED, alpha=0.85, fontsize=9.0, fontweight="bold", ha="right", va="bottom")
 
 
 def _draw_polar_grid(ax: Axes, rings: Tuple[float, ...] = (0.25, 0.5, 0.75, 1.0), labels: Optional[Tuple[str, ...]] = None) -> None:

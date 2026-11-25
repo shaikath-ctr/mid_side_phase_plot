@@ -2,6 +2,16 @@
 
 A Python-based interactive stereo Phase Analysis tool and DSP plotting library modeled after **Adobe Audition's Phase Analysis** panel. Works on both **Windows** and **macOS**.
 
+![Interactive Mid/Side Phase Analysis Studio GUI](docs/images/gui_mid_side.png)
+
+## Chart Modes
+
+| Mid / Side (45° Vectorscope) | Lissajous (L / R) |
+| :---: | :---: |
+| ![Mid/Side Phase Analysis Plot](docs/images/chart_mid_side.png) | ![Lissajous L/R Phase Plot](docs/images/chart_lissajous.png) |
+| **Histogram (Log Zoom)** | **Phase Wheel (Comb Delay)** |
+| ![Polar Histogram Log Zoom](docs/images/chart_histogram.png) | ![Phase Wheel Frequency Delay Spiral](docs/images/chart_phase_wheel.png) |
+
 ## Features
 
 - **Mid / Side Plot (45° rotated vectorscope)**
